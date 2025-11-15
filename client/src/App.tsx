@@ -6,6 +6,7 @@ import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Navigation from "./components/Navigation";
 import Home from "./pages/Home";
+import ColorSelection from "./pages/ColorSelection";
 import Logos from "./pages/Logos";
 import Research from "./pages/Research";
 import Recommendation from "./pages/Recommendation";
@@ -16,6 +17,7 @@ function Router() {
       <Navigation />
       <Switch>
         <Route path={"/"} component={Home} />
+      <Route path="/color-selection" component={ColorSelection} />
         <Route path={"/logos"} component={Logos} />
         <Route path={"/research"} component={Research} />
         <Route path={"/recommendation"} component={Recommendation} />

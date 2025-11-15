@@ -20,9 +20,9 @@ export default function Home() {
               Comprehensive market analysis, logo concepts, and strategic recommendations for the world's first fully autonomous, agentic insurance agency.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/recommendation">
+              <Link href="/color-selection">
                 <Button size="lg" variant="secondary" className="text-lg">
-                  View Recommendation
+                  View Color Selection
                   <ArrowRight className="ml-2" size={20} />
                 </Button>
               </Link>
